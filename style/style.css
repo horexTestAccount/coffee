@@ -1,0 +1,116 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+@font-face {
+     font-family: vazir;
+     src: url(../fonts/Vazir-Bold.woff);
+}
+main .hero header{
+     width: 100%;
+     height: 17vh;
+     display: flex;
+     gap: 20px 64%;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: flex-end;
+     background-color: antiquewhite;
+    
+
+}
+main .hero header>p{
+     font-family: 'DM Sans', sans-serif;
+     font-family: 'Oswald', sans-serif;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 24px;
+     color: #FF004D;
+    
+}
+main>.hero>header>div{
+     width: 27%;
+     height: 10vh;
+     display: flex;
+     flex-direction: row-reverse;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: center;
+     font-family: vazir;
+     font-size: 16px;
+}
+header div .v{
+     width: 37%;
+     height: 6vh;
+     background-color: #f8175a;
+     text-shadow: 2px 2px 3px white;
+     color: aliceblue;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20%;
+     
+
+}
+header>p{
+     width: 70px ;
+     height: 10vh;
+     align-self: flex-end;
+}
+main .hero .content{
+     width: 100%;
+     height: 92vh;
+     display: flex;
+     gap:30% 18%;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-content: center;
+     align-items: center;
+     justify-content: space-around;
+
+
+}
+main .hero .content .matn{
+     width: 35%;
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: flex-end;
+     justify-content:space-evenly;
+     align-content:center ;
+
+}
+main .hero .content .matn span{
+     color: #FF004D;
+}
+main .hero .content .matn>p:nth-child(1){
+     font-family: vazir;
+     font-size: 27px;
+}
+main .hero .content .matn>p:nth-child(2){
+     font-family: vazir;
+     font-size: 18px;
+}
+main .hero .content .picture{
+     display: flex;
+     align-content: flex-start;
+     
+    
+}
+main .hero .content .matn>div{
+     width: 380px;
+     height: 40px ;
+     background-color: white;
+     border-radius: 30%;
+     border: 2px solid black;
+    
+     
+     
+}
+main .hero .content .matn>div>img{
+     color: #f8175a;
+     margin-top: 2px;
+     width: 40px ;
+     height: 30px;
+}
